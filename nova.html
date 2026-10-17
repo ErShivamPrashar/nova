@@ -1,0 +1,534 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#111310">
+
+    <meta name="description"
+          content="NOVA Terminal by Shivexa. A focused command-line experience for developers.">
+
+    <title>NOVA Terminal — A quieter way to build</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="nova.css">
+     <script href = "nova.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="#home" class="brand">
+            <span class="brand-mark">n.</span>
+            <span class="brand-name">
+                NOVA
+                <small>BY SHIVEXA</small>
+            </span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#preview">Preview</a>
+            <a href="#download">Download</a>
+        </nav>
+
+        <a href="#download" class="nav-button">
+            Get NOVA <span>↗</span>
+        </a>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero section-container" id="home">
+
+            <div class="hero-copy">
+
+                <div class="eyebrow">
+                    <span class="eyebrow-dot"></span>
+                    INTRODUCING NOVA TERMINAL
+                </div>
+
+                <h1>
+                    A quieter way<br>
+                    to <span>build.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Your commands. Your workflow. Your space.
+
+                    NOVA Terminal by Shivexa is a developer
+                    tool designed to make the command line
+                    feel simple, focused and intuitive.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#download" class="button button-primary">
+                        Get NOVA <span>↗</span>
+                    </a>
+
+                    <a href="#preview" class="button button-ghost">
+                        <span class="play-icon">▷</span>
+                        See the interface
+                    </a>
+                </div>
+
+                <div class="hero-caption">
+                    <span>WINDOWS</span>
+                    <i></i>
+                    <span>macOS</span>
+                    <i></i>
+                    <span>BY SHIVEXA</span>
+                </div>
+
+            </div>
+
+            <!-- Realistic terminal preview -->
+            <div class="terminal-scene" id="preview">
+
+                <div class="terminal-window">
+
+                    <div class="terminal-top">
+                        <div class="traffic-lights">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="terminal-tab">
+                            <span class="tab-symbol">⌁</span>
+                            nova — workspace
+                        </div>
+
+                        <span class="terminal-menu">···</span>
+                    </div>
+
+                    <div class="terminal-inner">
+
+                        <div class="terminal-welcome">
+                            <div class="terminal-logo">n.</div>
+
+                            <div>
+                                <div class="welcome-title">
+                                    Welcome to NOVA
+                                </div>
+
+                                <div class="welcome-subtitle">
+                                    Your workspace is ready.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="terminal-rule"></div>
+
+                        <div class="terminal-line">
+                            <span class="terminal-path">nova ~/projects</span>
+                        </div>
+
+                        <div class="terminal-line command-line">
+                            <span class="prompt-symbol">❯</span>
+                            <span>helpme</span>
+                        </div>
+
+                        <div class="terminal-output-title">
+                            AVAILABLE COMMANDS
+                        </div>
+
+                        <div class="terminal-command-row">
+                            <code>helpme</code>
+                            <span>Show available commands</span>
+                        </div>
+
+                        <div class="terminal-command-row">
+                            <code>show</code>
+                            <span>List files and folders</span>
+                        </div>
+
+                        <div class="terminal-command-row">
+                            <code>map</code>
+                            <span>Explore directory structure</span>
+                        </div>
+
+                        <div class="terminal-command-row">
+                            <code>recall</code>
+                            <span>Review previous commands</span>
+                        </div>
+
+                        <div class="terminal-command-row">
+                            <code>search</code>
+                            <span>Find files in your workspace</span>
+                        </div>
+
+                        <div class="terminal-rule"></div>
+
+                        <div class="terminal-line command-line">
+                            <span class="prompt-symbol">❯</span>
+                            <span>run hello.py</span>
+                        </div>
+
+                        <div class="terminal-result">
+                            <span class="result-check">✓</span>
+                            Process completed successfully.
+                        </div>
+
+                        <div class="terminal-bottom-prompt">
+                            <span class="prompt-symbol">❯</span>
+                            <span class="terminal-cursor"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="terminal-footer">
+                        <span><i></i> READY</span>
+                        <span>SHIVEXA · NOVA TERMINAL</span>
+                    </div>
+
+                </div>
+
+                <div class="floating-note">
+                    <span class="floating-icon">↗</span>
+                    <div>
+                        <strong>Stay in your flow.</strong>
+                        <small>One command at a time.</small>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Brand strip -->
+        <section class="brand-strip">
+            <div class="section-container strip-inner">
+                <span class="strip-label">MADE FOR THE WAY YOU WORK</span>
+                <span>Thoughtful by design.</span>
+                <span>Simple by default.</span>
+                <span>Built by Shivexa.</span>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section class="features section-container" id="features">
+
+            <div class="section-heading">
+                <span class="section-label">THE NOVA EXPERIENCE</span>
+
+                <h2>
+                    Less noise.<br>
+                    <span>More making.</span>
+                </h2>
+
+                <p>
+                    The essentials, thoughtfully presented.
+                    A terminal experience that keeps the focus
+                    where it belongs — on your work.
+                </p>
+            </div>
+
+            <div class="feature-grid">
+
+                <article class="feature-card">
+                    <div class="feature-top">
+                        <span class="feature-icon icon-command">⌘</span>
+                        <span class="feature-index">01</span>
+                    </div>
+
+                    <h3>Commands, clearly.</h3>
+
+                    <p>
+                        Discover supported commands through
+                        a straightforward, readable interface.
+                    </p>
+
+                    <div class="mini-command">
+                        <span>❯</span> helpme
+                        <b>↵</b>
+                    </div>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-top">
+                        <span class="feature-icon icon-files">▤</span>
+                        <span class="feature-index">02</span>
+                    </div>
+
+                    <h3>Your files, in focus.</h3>
+
+                    <p>
+                        Navigate folders, inspect files and
+                        understand your workspace structure.
+                    </p>
+
+                    <div class="mini-file-list">
+                        <span>↳</span> projects
+                        <span class="file-count">03 items</span>
+                    </div>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-top">
+                        <span class="feature-icon icon-flow">↗</span>
+                        <span class="feature-index">03</span>
+                    </div>
+
+                    <h3>A flow that feels natural.</h3>
+
+                    <p>
+                        Keep everyday terminal operations
+                        organized without unnecessary clutter.
+                    </p>
+
+                    <div class="mini-status">
+                        <span></span> Workspace ready
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Manifesto -->
+        <section class="manifesto">
+            <div class="section-container manifesto-inner">
+
+                <span class="section-label">A NOTE FROM SHIVEXA</span>
+
+                <h2>
+                    Great tools don't get<br>
+                    in your way. They <em>get it done.</em>
+                </h2>
+
+                <p>
+                    NOVA is built around a simple idea:
+                    your tools should help you think, create
+                    and move forward.
+                </p>
+
+                <div class="manifesto-signature">
+                    <span class="signature-line"></span>
+                    <span>NOVA TERMINAL / SHIVEXA</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Downloads -->
+        <section class="download-section section-container" id="download">
+
+            <div class="download-heading">
+                <div>
+                    <span class="section-label">MAKE IT YOURS</span>
+
+                    <h2>
+                        Your next idea<br>
+                        starts <span>here.</span>
+                    </h2>
+
+                    <p>
+                        Choose your platform to get NOVA Terminal.
+                        Use the official release for your system.
+                    </p>
+                </div>
+
+                <div class="download-aside">
+                    <span class="aside-symbol">↓</span>
+                    <span>
+                        TWO PLATFORMS.<br>
+                        ONE NOVA.
+                    </span>
+                </div>
+            </div>
+
+            <div class="download-grid">
+
+                <!-- Windows -->
+                <article class="download-card">
+
+                    <div class="download-card-header">
+                        <div class="os-logo windows-logo">
+                            <svg viewBox="0 0 24 24"
+                                 aria-hidden="true">
+                                <path d="M2 4.8 10.5 3.6V11H2V4.8Zm9.5-1.4L22 1.8V11H11.5V3.4ZM2 12.2h8.5v7.4L2 18.4v-6.2Zm9.5 0H22v9l-10.5-1.5v-7.5Z"
+                                      fill="currentColor"/>
+                            </svg>
+                        </div>
+
+                        <span class="os-label">DESKTOP EDITION</span>
+                    </div>
+
+                    <h3>NOVA for Windows</h3>
+
+                    <p>
+                        A desktop release for supported
+                        Windows PCs.
+                    </p>
+
+                    <div class="download-specs">
+                        <span>Windows 10 / 11*</span>
+                        <span>x64*</span>
+                        <span>.EXE</span>
+                    </div>
+
+                    <a href="downloads/NOVA-Setup.exe"
+                       class="button button-download">
+                        Download for Windows <span>↗</span>
+                    </a>
+
+                    <span class="download-footnote">
+                        *Verify compatibility with your release.
+                    </span>
+
+                </article>
+
+                <!-- Mac -->
+                <article class="download-card">
+
+                    <div class="download-card-header">
+                        <div class="os-logo mac-logo">
+                            <svg viewBox="0 0 24 24"
+                                 aria-hidden="true">
+                                <path fill="currentColor"
+                                      d="M16.37 12.14c.03 3.06 2.68 4.08 2.71 4.09-.02.07-.42 1.44-1.39 2.85-.84 1.22-1.72 2.44-3.1 2.47-1.35.02-1.79-.8-3.33-.8-1.55 0-2.03.78-3.31.82-1.33.05-2.34-1.33-3.18-2.54-1.73-2.5-3.05-7.06-1.28-10.14.88-1.53 2.45-2.5 4.15-2.52 1.3-.03 2.53.88 3.32.88.79 0 2.28-1.09 3.84-.93.65.03 2.49.26 3.67 1.98-.1.06-2.19 1.28-2.17 3.84ZM13.85 4.64A4.58 4.58 0 0 0 14.91 1c-1.1.05-2.44.74-3.23 1.63-.71.8-1.33 2.1-1.16 3.33 1.23.1 2.5-.63 3.33-1.32Z"/>
+                            </svg>
+                        </div>
+
+                        <span class="os-label">DESKTOP EDITION</span>
+                    </div>
+
+                    <h3>NOVA for macOS</h3>
+
+                    <p>
+                        A Mac release for supported MacBook
+                        and iMac computers.
+                    </p>
+
+                    <div class="download-specs">
+                        <span>macOS*</span>
+                        <span>Intel / Apple Silicon*</span>
+                        <span>.DMG</span>
+                    </div>
+
+                    <a href="downloads/NOVA-macOS.dmg"
+                       class="button button-download">
+                        Download for Mac <span>↗</span>
+                    </a>
+
+                    <span class="download-footnote">
+                        *Verify OS and processor support before release.
+                    </span>
+
+                </article>
+
+            </div>
+
+            <div class="download-disclaimer">
+                <span class="disclaimer-check">✓</span>
+                <p>
+                    <strong>A note on downloads</strong>
+                    <span>
+                        Official installers must be built, tested and
+                        uploaded before these links can work.
+                    </span>
+                </p>
+            </div>
+
+        </section>
+
+        <!-- Installation -->
+        <section class="getting-started section-container" id="installation">
+
+            <div class="section-heading">
+                <span class="section-label">GETTING STARTED</span>
+
+                <h2>Three steps.<br><span>Then create.</span></h2>
+
+                <p>
+                    Start with the installer that matches your computer.
+                </p>
+            </div>
+
+            <div class="steps">
+
+                <article class="step">
+                    <span class="step-number">01</span>
+                    <h3>Choose</h3>
+                    <p>
+                        Pick Windows or macOS and download
+                        the matching official release.
+                    </p>
+                </article>
+
+                <article class="step">
+                    <span class="step-number">02</span>
+                    <h3>Install</h3>
+                    <p>
+                        Open the downloaded package and follow
+                        the installation instructions.
+                    </p>
+                </article>
+
+                <article class="step">
+                    <span class="step-number">03</span>
+                    <h3>Get to work</h3>
+                    <p>
+                        Launch NOVA and type
+                        <code>helpme</code> to explore its commands.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container">
+
+            <div class="footer-main">
+
+                <a href="#home" class="brand">
+                    <span class="brand-mark">n.</span>
+
+                    <span class="brand-name">
+                        NOVA
+                        <small>BY SHIVEXA</small>
+                    </span>
+                </a>
+
+                <p>
+                    Thoughtfully built for people who build.
+                </p>
+
+                <a href="#home" class="back-top">
+                    Back to top ↑
+                </a>
+
+            </div>
+
+            <div class="footer-bottom">
+                <span>© 2026 Shivexa. All rights reserved.</span>
+
+                <div class="footer-links">
+                    <a href="#features">Features</a>
+                    <a href="#download">Downloads</a>
+                    <a href="mailto:support@shivexa.in">Contact</a>
+                </div>
+
+                <span class="footer-location">
+                    MADE WITH PURPOSE.
+                </span>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
