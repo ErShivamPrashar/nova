@@ -1,7 +1,7 @@
 "use strict";
 
 const downloadLinks = {
-    windows: "downloads/shell.exe",
+    windows: "./shell.exe",
     mac: "downloads/NOVA-macOS.dmg"
 };
 
